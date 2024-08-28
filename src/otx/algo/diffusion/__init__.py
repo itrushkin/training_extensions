@@ -7,5 +7,6 @@ from .clip_tokenizer import CLIPTokenizer
 from .ddim_scheduler import DDIMScheduler
 from .huggingface_model import HuggingFaceModelForDiffusion
 from .otx_model import OTXStableDiffusion
+from .model.ldm.models.diffusion.ddpm import OTXLatentDiffusion
 
 __all__ = ["OTXStableDiffusion", "CLIPTokenizer", "DDIMScheduler", "HuggingFaceModelForDiffusion"]
